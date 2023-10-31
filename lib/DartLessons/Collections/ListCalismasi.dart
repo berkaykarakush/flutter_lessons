@@ -1,8 +1,6 @@
 import 'dart:io';
 import 'dart:math';
 
-import 'package:flutter_lessons/NesneTabanliProgramlama/CompositionCalismasi.dart';
-
 void main() {
   // list tanimlama
   var sayilar = <String>{};
