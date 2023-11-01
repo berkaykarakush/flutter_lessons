@@ -4,6 +4,8 @@ void main() {
   runApp(const MyApp());
 }
 
+// First
+//region
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -21,25 +23,14 @@ class MyApp extends StatelessWidget {
   }
 }
 
+
 class MyHomePage extends StatefulWidget {
   @override
   State<MyHomePage> createState() => _MyHomePageState();
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
-  void _incrementCounter()
-  {
-    setState(() {
-      _counter++;
-    });
-  }
 
-  @override
-  void initState() {
-    super.initState();
-    print("Uygulama acildi");
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -49,13 +40,8 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text("Baslik"),
       ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-          ],
-        ),
-      ),
+      body: Text("Merhaba")
     );
   }
 }
+//endregion
