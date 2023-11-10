@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -34,7 +35,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.black,
+        backgroundColor: Colors.lightBlueAccent,
         centerTitle: true,
         title: Text("Anasayfa", style: TextStyle(color: Colors.white),),
       ),
