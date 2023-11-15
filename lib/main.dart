@@ -33,17 +33,17 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
 
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.lightBlueAccent,
-        centerTitle: true,
-        title: Text("Anasayfa", style: TextStyle(color: Colors.white),),
-      ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [],
+        appBar: AppBar(
+          backgroundColor: Colors.lightBlueAccent,
+          centerTitle: true,
+          title: Text("Anasayfa", style: TextStyle(color: Colors.white),),
         ),
-      )
+        body: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [],
+          ),
+        )
     );
   }
 }

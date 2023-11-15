@@ -30,19 +30,24 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-#  webview_flutter: ^4.0.6
-#  shared_preferences: ^2.0.11
-#  path_provider: ^2.1.1
-  path: ^1.8.3
-  sqflite: ^2.3.0
-  flutter_local_notifications: ^16.1.0
-  http: ^1.1.0
-  firebase_core: ^2.22.0
-  firebase_database: ^10.3.4
-  geolocator: ^10.1.0
-  google_maps_flutter: ^2.1.1
-
-  # The following adds the Cupertino Icons font to your application.
+#  webview_flutter:
+#  shared_preferences:
+#  path_provider:
+#  path:
+#  sqflite:
+#  flutter_local_notifications:
+#  http:
+#  firebase_core:
+#  firebase_database:
+#  geolocator:
+#  google_maps_flutter:
+#  provider:
+#  build_runner:
+#  mobx:
+#  flutter_mobx:
+#  mobx_codegen:
+#  flutter_bloc:
+# The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
 
