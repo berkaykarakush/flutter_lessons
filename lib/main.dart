@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
-// First
-//region
+void main(){
+  runApp(MyApp());
+}
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -43,4 +45,3 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
-//endregion
