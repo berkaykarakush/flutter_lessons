@@ -30,15 +30,16 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  dio:
 #  webview_flutter:
 #  shared_preferences:
 #  path_provider:
-#  path:
-#  sqflite:
+  path:
+  sqflite:
 #  flutter_local_notifications:
 #  http:
-#  firebase_core:
-#  firebase_database:
+  firebase_core:
+  firebase_database:
 #  geolocator:
 #  google_maps_flutter:
 #  provider:
@@ -86,7 +87,8 @@ flutter:
   #  To add assets to your application, add an assets section, like this:
   assets:
     - images/
-    - veritabani/kisileruygulamasi.sqlite
+    - veritabani/rehber2.sqlite
+#    - veritabani/kisileruygulamasi.sqlite
 #    - veritabani/filmler.sqlite
 #    - veritabani/notuygulamasi.sqlite
 #    - veritabani/sozluk.sqlite
